@@ -227,3 +227,12 @@ body.dark #languageSelector:hover {
 body.dark .portfolio-note {
   color: #aaa;
 }
+
+.carousel {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 1rem;
+}
